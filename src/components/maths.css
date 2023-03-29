@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.app-container {
+  display: grid;
+  align-self: center;
+  max-width: 20rem;
+  min-height: 35rem;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.button {
+  border: 1.5px solid lightgray;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.sign {
+  background-color: darkorange;
+}
+
+.output {
+  font-size: 2rem;
+  text-align: right;
+  background-color: gray;
+  grid-column: 1 / span 4;
+  color: white;
+}
+
+.zero {
+  grid-column: 1 / span 3;
+}
