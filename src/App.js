@@ -13,7 +13,7 @@ class App extends React.PureComponent {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>MathGician</h1>
+          <h1>Maths App</h1>
         </header>
         <Calculator />
       </div>
