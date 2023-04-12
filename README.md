@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h1><b>Math Magician</b></h1>
+  <h1><b>Math App</b></h1>
 
 </div>
 
@@ -31,7 +31,7 @@
 
 # 📖 [Math-Magician] <a name="about-project"></a>
 
-This is the first project of the Math Magicians application. I set up the environment and tools needed to develop a React application. In the following projects, I will develop the actual application.
+This is the first project of the Math Maths App application. I set up the environment and tools needed to develop a React application. In the following projects, I will develop the actual application.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,6 +45,7 @@ This is the first project of the Math Magicians application. I set up the enviro
 
 ### Key Features <a name="key-features"></a>
 
+- **Home section**
 - **Calculator**
 - **Quotes Section**
 
