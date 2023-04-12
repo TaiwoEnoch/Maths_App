@@ -6,7 +6,7 @@ const Home = () => (
     <p className="paraText">
       Maths App is a fun app that eases your daily need transactionary or fun needs for
       computing. This app is fully functional and accurate with figures.
-      Feel free to use it, share it amd like it.
+      Feel free to use it, share it and like it.
     </p>
   </div>
 );

@@ -36,10 +36,13 @@ body {
   margin-top: 10rem;
 }
 
-.quota {
-  color: cyan;
+.Quote {
+  color: #000;
+  max-width: 500px;
+  margin: 8rem auto;
+  font-size: 2rem;
+  line-height: 40px;
   text-align: center;
-  margin-top: 8rem;
 }
 
 .container {
@@ -71,12 +74,12 @@ a:hover {
 }
 
 .panel {
-  padding: 5rem;
+  padding: 3rem;
 }
 
 table {
   width: 70%;
-  max-width: 575px;
+  max-width: 590px;
   margin: 5rem auto;
   border: 1px solid #fff;
   border-collapse: collapse;
@@ -95,12 +98,12 @@ td {
 }
 
 tbody td {
-  width: 30vw;
+  width: 70vw;
 }
 
 tr.result td {
   text-align: right;
-  padding: 0 0.5rem;
+  padding: 1rem 0.5rem;
   background-color: #848693;
   color: #fff;
   font-size: 1.25rem;

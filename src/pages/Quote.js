@@ -21,7 +21,7 @@ const Quote = () => {
   }, []);
 
   return (
-    <div>
+    <div className="Quote">
       {error && <p>{error}</p>}
       {loading && <p>Loading...</p>}
       {quote && <p>{quote}</p>}
