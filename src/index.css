@@ -23,6 +23,16 @@ body {
   scroll-behavior: smooth;
 }
 
+.heading {
+  text-align: center;
+  text-decoration: solid;
+}
+
+.heading:hover {
+  color: darkorange;
+  transition: all 1s ease-out;
+}
+
 .paraText {
   color: #000;
   max-width: 500px;
