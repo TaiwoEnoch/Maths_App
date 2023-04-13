@@ -28,11 +28,6 @@ body {
   text-decoration: solid;
 }
 
-.heading:hover {
-  color: darkorange;
-  transition: all 1s ease-out;
-}
-
 .paraText {
   color: #000;
   max-width: 500px;
@@ -40,6 +35,11 @@ body {
   font-size: 2rem;
   line-height: 40px;
   text-align: center;
+}
+
+.paraText:hover {
+  color: red;
+  transition: all 1s ease-out;
 }
 
 .heroPage {
@@ -53,6 +53,11 @@ body {
   font-size: 2rem;
   line-height: 40px;
   text-align: center;
+}
+
+.Quote:hover {
+  color: red;
+  transition: all 1s ease-out;
 }
 
 .container {
@@ -73,14 +78,14 @@ body {
 a {
   list-style: none;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: #000;
   transition: all 1s ease-out;
 }
 
 a:hover {
   border-bottom: 1px solid #f2f2f2;
-  color: darkorange;
+  color: red;
 }
 
 .panel {
