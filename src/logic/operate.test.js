@@ -1,34 +1,34 @@
-import operate from '../logic/operate';
-​
-describe("operate function", () => {
-  test("test addition of 2 positive numbers", () => {
+import operate from './operate';
+
+describe('operate function', () => {
+  test('test addition of 2 positive numbers', () => {
     expect(operate(1, 2, '+')).toBe('3');
   });
-​
-  test("test subtraction of 2 positive numbers", () => {
+
+  test('test subtraction of 2 positive numbers', () => {
     expect(operate(1, 2, '-')).toBe('-1');
   });
-  
-  test("add a positive number to zero", () => {
+
+  test('add a positive number to zero', () => {
     expect(operate(0, 9, '+')).toBe('9');
   });
-​
-  test("add two negative numbers", () => {
+
+  test('add two negative numbers', () => {
     expect(operate(-1, -2, '+')).toBe('-3');
   });
-​
-  test("multiply two negative numbers", () => {
+
+  test('multiply two negative numbers', () => {
     expect(operate(-1, -2, 'x')).toBe('2');
   });
-​
-  test("multiply two positive numbers", () => {
+
+  test('multiply two positive numbers', () => {
     expect(operate(1, 2, 'x')).toBe('2');
   });
-​
-  test("multiply a positive number with a negative mumber", () => {
+
+  test('multiply a positive number with a negative mumber', () => {
     expect(operate(1, -2, 'x')).toBe('-2');
   });
-​
+
   test('test division operation', () => {
     expect(operate(10, 2, '÷')).toBe('5');
   });
