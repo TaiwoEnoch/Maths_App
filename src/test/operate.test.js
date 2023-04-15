@@ -1,4 +1,4 @@
-import operate from './operate';
+import operate from '../logic/operate';
 
 describe('operate function', () => {
   test('test addition of 2 positive numbers', () => {
@@ -27,6 +27,10 @@ describe('operate function', () => {
 
   test('multiply a positive number with a negative mumber', () => {
     expect(operate(1, -2, 'x')).toBe('-2');
+  });
+
+  test('test division operation', () => {
+    expect(operate(10, 2, '÷')).toBe('5');
   });
 
   test('test division operation', () => {

@@ -1,4 +1,4 @@
-import calculate from './calculate';
+import calculate from '../logic/calculate';
 
 describe('calculate', () => {
   it('should return an empty object for button AC', () => {
