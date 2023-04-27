@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Maths_App/static/css/main.720a84fb.css",
+    "main.js": "/Maths_App/static/js/main.b3bc9d4e.js",
+    "index.html": "/Maths_App/index.html",
+    "main.720a84fb.css.map": "/Maths_App/static/css/main.720a84fb.css.map",
+    "main.b3bc9d4e.js.map": "/Maths_App/static/js/main.b3bc9d4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.720a84fb.css",
+    "static/js/main.b3bc9d4e.js"
+  ]
+}
