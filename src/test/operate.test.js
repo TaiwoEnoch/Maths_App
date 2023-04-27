@@ -30,7 +30,7 @@ describe('operate function', () => {
   });
 
   test('test division operation', () => {
-    expect(operate(10, 2, '÷')).toBe('5');
+    expect(operate(10, 5, '÷')).toBe('2');
   });
 
   test('test module operation', () => {
