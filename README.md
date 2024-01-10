@@ -31,7 +31,7 @@
 
 # 📖 [Math-Magician] <a name="about-project"></a>
 
-This is the first project of the Math Maths App application. I set up the environment and tools needed to develop a React application. In the following projects, I will develop the actual application.
+This is a Maths app developed to perform some arithmetic calculations.
 
 ## 🛠 Built With <a name="built-with"></a>
 
