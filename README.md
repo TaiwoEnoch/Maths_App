@@ -123,7 +123,7 @@ To run the project, execute the following command:
 
 - **Calculator Logic Implementation**
 - **Home Page**
-- **Quote Page**
+- **Dynamic Quote Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
